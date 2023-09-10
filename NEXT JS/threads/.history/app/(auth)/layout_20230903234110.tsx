@@ -1,0 +1,12 @@
+export const metaData = {
+    title: "Threads",
+    description: "A Next.Js 13 Meta Threads Application"
+}
+
+export default function RootLayout({children}:{children: React.ReactNode}){
+    return(
+        <>
+        <h1>Hello Layout</h1>
+        </>
+    )
+}
