@@ -47,7 +47,7 @@ export default function PostThread({ userId }: { userId: string }) {
   const onSubmit = async (values: z.infer<typeof ThreadValidation>) => {
     await createThread({
       text: values.thread,
-      auther: userId,
+      author: userId,
       community: null,
       path: pathname,
     });

@@ -13,5 +13,5 @@ export const CommentValidation = z.object({
     .string()
     .nonempty()
     .min(6, { message: "minimum 6 characters required" }),
-  accountId: z.string(),
+  // accountId: z.string(),
 });
